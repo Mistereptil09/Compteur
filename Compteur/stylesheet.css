@@ -1,0 +1,164 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {  /*to make the background image take all the screen*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*to take at least the height of the screen*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/fond.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+footer{
+    background-color: rgb(161, 72, 209);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+.case {
+    background-color: rgb(161, 72, 209);
+    height: 100px;
+    overflow: hidden; /* Add overflow: hidden to contain floated elements */
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none; /*reove the dots in front of the text*/
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Distribute space between logo and buttons */
+    align-items: center; /* Center vertically within the header */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px; /* Adjust spacing between buttons */
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.inline {
+    text-align: center;
+}
+
+.roundedButton{
+    border: 3px solid rgb(138, 18, 203);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.roundedButton:hover{
+    cursor: pointer;
+    border: 3px solid white;
+
+}
+
+#error{
+    background-color: rgba(208, 43, 43, 0.6);
+    border: solid 3px rgba(243, 61, 61, 0.124);
+    border-radius: 10px;
+    padding: 5px;
+    display: inline;
+    color: rgb(99, 14, 15);
+}
+
+#username{
+    background-color: rgb(138, 18, 203);
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+form{
+    margin: 10px;
+}
+form div, input{
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#showNumber {
+    font-size: 60px;
+    color:rgb(161, 72, 209);
+    font-weight: bold;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    width: 100%;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center; /* Center vertically within the header */
+    padding-left: 20px;
+}
+
+#counting{
+    margin-top: 10%;
+}
+@media screen and (max-height: 720px){
+    #counting{
+        margin-top: 0%;
+    }
+}
+
+/* Table style */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(161, 72, 209);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(138, 18, 203, 0.6);
+    color: #fff;
+}
+
+/* Make the description column wider */
+td:nth-child(2) {
+    width: 60%; /* Adjust the width as needed */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(161, 72, 209, 0.2); /* Adjust the color as needed */
+}
+
+/* Message for no entries */
+#noEntries {
+    font-size: 24px;
+    color: rgb(161, 72, 209);
+    margin: 20px 10% 0 10%;
+    background-color: white;
+    border-radius: 10px;
+}
