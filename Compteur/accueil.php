@@ -36,7 +36,7 @@
         <?php
         // Display the user's name if they are logged in
         if ($userId) {
-            echo "<p id='username'>Logged in as: $userName</p>";
+            echo "<p id='username'>Connecté en tant que : $userName</p>";
         }
         ?>
     </div>
