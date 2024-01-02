@@ -3,7 +3,7 @@ car c'est une blague que mon groupe d'amis me faisait donc je me suis "pourquoi 
 
 Les fonctionnalités sont : création de compte (sans email), connexion au compte, 
 suivit du nombre d'entrées, suivit des entrés (description, date et quel utilisateur à
-fait l'entrée), une page ou chaque utilisateur voit sa propre entrée,
+fait l'entrée), une page ou chaque utilisateur voit sa propre entrée a partir de laquelle l'utilisateur peut supprimer ses entrées
 un système de déconnection simple.
 
 Les languages utilisés sont : Le PHP, Myqsl, le CSS et l'HTML
